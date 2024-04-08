@@ -19,6 +19,9 @@ let age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
 console.log("Your age is " + age + "; that's a good time to start programming!");
 console.log("Now I will prove to you that I can count to any number you want.");
 
-// read a number and count to it here
+const iterations = input();
+for(let i = 0; i <= iterations; i++) {
+    console.log(`${i} !`);
+}
 
 console.log("Completed, have a nice day!");
